@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  #only one job to create infrastructure
+  #only one job to create infrastructure; created a user on AWS Console.
   create_infrastructure:
       docker:
         - image: amazon/aws-cli

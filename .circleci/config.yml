@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  #only one job to create infrastructure.
+  #only one job to create infrastructure
   create_infrastructure:
       docker:
         - image: amazon/aws-cli
